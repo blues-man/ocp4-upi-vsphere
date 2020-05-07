@@ -1,0 +1,5 @@
+#!/bin/sh
+wget -c https://github.com/vmware/govmomi/releases/download/v0.22.1/govc_linux_amd64.gz
+gunzip govc_linux_amd64
+mv govc_linux_amd64 govc
+./govc
